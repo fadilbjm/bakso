@@ -11,9 +11,8 @@
           <div class="container">
             <div class="row slider-text align-items-center justify-content-center">
               <div class="col-md-8 text-center col-sm-12 ">
-                <h1 data-aos="fade-up">Enjoy Your Food at Foody</h1>
-                <p class="mb-5" data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente et sed quasi.</p>
-                <p data-aos="fade-up" data-aos-delay="200"><a href="#" class="btn btn-white btn-outline-white">Get Started</a></p>
+                <h1 data-aos="fade-up">Nikmati Makan Bersama Di Depot Al - Alamin</h1>
+                <p data-aos="fade-up" data-aos-delay="200"><a href="#" class="btn btn-white btn-outline-white">Minta Petunjuk Arah</a></p>
               </div>
             </div>
           </div>
@@ -24,9 +23,8 @@
           <div class="container">
             <div class="row slider-text align-items-center justify-content-center">
               <div class="col-md-8 text-center col-sm-12 ">
-                <h1 data-aos="fade-up">Delecious Food</h1>
-                <p class="mb-5" data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente et sed quasi.</p>
-                <p data-aos="fade-up" data-aos-delay="200"><a href="#" class="btn btn-white btn-outline-white">Get Started</a></p>
+                <h1 data-aos="fade-up">Makanan Enak</h1>
+                <p data-aos="fade-up" data-aos-delay="200"><a href="#" class="btn btn-white btn-outline-white">Periksa Menu</a></p>
               </div>
             </div>
           </div>
@@ -234,13 +232,11 @@
       <div class="container">
         <div class="row mb-5">
           <div class="col-md-4 mb-5">
-            <h3>About Us</h3>
-            <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus et dolor blanditiis consequuntur ex voluptates perspiciatis omnis unde minima expedita.</p>
+            <h3>Tentang Kami</h3>
+            <p class="mb-5">Warung kami berdiri sejak tahun 2003, dan saat itu warung kami berada di lapangan Kodim 1009 Pelaihari. Namun saat ini kami telah tumbuh dan memiliki tempat makan yang lebih luas.</p>
             <ul class="list-unstyled footer-link d-flex footer-social">
-              <li><a href="#" class="p-2"><span class="fa fa-twitter"></span></a></li>
-              <li><a href="#" class="p-2"><span class="fa fa-facebook"></span></a></li>
-              <li><a href="#" class="p-2"><span class="fa fa-linkedin"></span></a></li>
-              <li><a href="#" class="p-2"><span class="fa fa-instagram"></span></a></li>
+              <li><a href="https://facebook.com/depot.al.alamin" target="_blank" class="p-2"><span class="fa fa-facebook"></span></a></li>
+              <li><a href="https://instagram.com/depot.al.alamin" target="_blank" class="p-2"><span class="fa fa-instagram"></span></a></li>
             </ul>
 
           </div>
@@ -253,10 +249,10 @@
               <h3>Kontak</h3>
               <ul class="list-unstyled footer-link">
                 <li class="d-block">
-                  <span class="d-block text-black">Address:</span>
-                  <span>34 Street Name, City Name Here, United States</span></li>
-                <li class="d-block"><span class="d-block text-black">Phone:</span><span>+1 242 4942 290</span></li>
-                <li class="d-block"><span class="d-block text-black">Email:</span><span>info@yourdomain.com</span></li>
+                  <span class="d-block text-black">Alamat:</span>
+                  <span>Kodim 1009, Jl. A. Yani RT 01 RW 01 Kel. Angsau Kec. Pelaihari</span></li>
+                <li class="d-block"><span class="d-block text-black">Telpon:</span><span><a href="tel:+6282251137182">0822-5113-7182</a></span></li>
+                <li class="d-block"><span class="d-block text-black">Email:</span><span><a href="mailto:info@depot-al-alamin.id">info@depot-al-alamin.id</a></span></li>
               </ul>
             </div>
           </div>

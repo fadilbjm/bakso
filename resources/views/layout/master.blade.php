@@ -40,13 +40,19 @@
                 <a class="nav-link" href="recipes.html">Promosi</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link" href="index.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="recipes.html">Berita</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="about.html">Tentang</a>
               </li>
             </ul>
 
             <ul class="navbar-nav ml-auto">
               <li class="nav-item cta-btn">
-                <a class="nav-link" href="contact.html">Pesan Sekarang</a>
+                <a class="nav-link" href="contact.html"><i class="fa fa-phone" aria-hidden="true"></i> Pesan Sekarang</a>
               </li>
             </ul>
             
@@ -62,9 +68,10 @@
     <div class="row">
         <div class="col-12 text-md-center text-left">
           <p>
-          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Term Of Service
+          </p>
+          <p>
           Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Depot Al-Alamin</a>
-          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
           </p>
         </div>
       </div>
