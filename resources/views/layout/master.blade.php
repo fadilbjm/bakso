@@ -26,7 +26,7 @@
     <header role="banner">
       <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container">
-          <a class="navbar-brand" href="index.html"><i class="fa fa-check-circle" aria-hidden="true"></i> AL - ALAMIN </a>
+          <a class="navbar-brand" href="home"><i class="fa fa-check-circle" aria-hidden="true"></i> AL - ALAMIN </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -34,25 +34,25 @@
           <div class="collapse navbar-collapse" id="navbarsExample05">
             <ul class="navbar-nav ml-auto pl-lg-5 pl-0">
               <li class="nav-item">
-                <a class="nav-link active" href="index.html">Home</a>
+                <a class="nav-link active" href="home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="recipes.html">Promosi</a>
+                <a class="nav-link" href="promo">Promo</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="index.html">Menu</a>
+                <a class="nav-link" href="menu">Menu</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="recipes.html">Berita</a>
+                <a class="nav-link" href="blog">Berita</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">Tentang</a>
+                <a class="nav-link" href="tentang">Tentang</a>
               </li>
             </ul>
 
             <ul class="navbar-nav ml-auto">
               <li class="nav-item cta-btn">
-                <a class="nav-link" href="contact.html"><i class="fa fa-phone" aria-hidden="true"></i> Pesan Sekarang</a>
+                <a class="nav-link" href="tel:+6282251137182"><i class="fa fa-phone" aria-hidden="true"></i> Pesan Sekarang</a>
               </li>
             </ul>
             

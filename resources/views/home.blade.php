@@ -211,17 +211,21 @@
           <div class="col-lg-6 text-center">
             <div class="row">
               <div class="col-md-12 mb-3">
-                <h3>Subsribe Newsletter</h3>
+                <h3>Berlangganan E-mail</h3>
                 <p>Subscribe E-mail untuk mendapatkan promo menarik dari kami.</p>
               </div>
 
               <form action="" class="col-12 mb-5">
                 <div class="row align-items-center">
                 <div class="col-md-8 mb-3 mb-md-0">
-                  <input type="text" class="form-control" placeholder="Enter Email Address">
+                  <form>
+                    {{csrf_field()}}
+                  <input type="text" name="email" class="form-control" placeholder="Enter Email Address">
+                  
                 </div>
                 <div class="col-md-4">
                   <input type="submit" class="btn btn-primary btn-block" value="Subscribe">
+                </form>
                 </div>
                 </div>
               </form>
@@ -260,7 +264,7 @@
             <h3>Link Cepat</h3>
             <ul class="list-unstyled footer-link">
               <li><a href="#">Tentang</a></li>
-              <li><a href="#">Ketentuan Penggunaan</a></li>
+              <li><a href="#">Ketentuan Layanan</a></li>
               <li><a href="#">Disclaimers</a></li>
               <li><a href="#">Kontak</a></li>
             </ul>

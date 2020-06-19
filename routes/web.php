@@ -13,4 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Landing Page
 Route::get('/', 'Clanding@index');
+Route::get('home', 'Clanding@index');
+Route::get('promo', 'Clanding@promo');
+Route::get('tentang', 'Clanding@tentang');
+Route::get('menu', 'Clanding@menu');
+
+
+// Blog
