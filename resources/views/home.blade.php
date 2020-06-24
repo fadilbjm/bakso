@@ -215,17 +215,15 @@
                 <p>Subscribe E-mail untuk mendapatkan promo menarik dari kami.</p>
               </div>
 
-              <form action="" class="col-12 mb-5">
+              <form action="subscribe" method="POST" class="col-12 mb-5" target="_blank">
                 <div class="row align-items-center">
                 <div class="col-md-8 mb-3 mb-md-0">
-                  <form>
                     {{csrf_field()}}
-                  <input type="text" name="email" class="form-control" placeholder="Enter Email Address">
+                  <input type="email" name="email" class="form-control" placeholder="Enter Email Address">
                   
                 </div>
                 <div class="col-md-4">
                   <input type="submit" class="btn btn-primary btn-block" value="Subscribe">
-                </form>
                 </div>
                 </div>
               </form>

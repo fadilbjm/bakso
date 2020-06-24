@@ -23,4 +23,17 @@ class Clanding extends Controller
     {
         return view('tentang');
     }
+
+    public function subs(Request $req)
+    {
+        \App\Msub::create($req->all());
+        // echo "ber";
+        return redirect('subscribeDone');
+        
+    }
+
+    function subsdone()
+    {
+        echo "Terimakasih telah berlangganan mailing list kami, kami akan memberikan promo menarik dan tidak melakukan spam :)";
+    }
 }

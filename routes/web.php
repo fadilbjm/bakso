@@ -19,6 +19,7 @@ Route::get('home', 'Clanding@index');
 Route::get('promo', 'Clanding@promo');
 Route::get('tentang', 'Clanding@tentang');
 Route::get('menu', 'Clanding@menu');
-
+Route::post('subscribe', 'Clanding@subs');
+Route::get('subscribeDone', 'Clanding@subsdone');
 
 // Blog
