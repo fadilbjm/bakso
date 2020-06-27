@@ -62,44 +62,42 @@
         </div>
       </div>
     </section>
-    
-
     <section class="section pb-0">
       <div class="container">
         <div class="row mb-5 justify-content-center" data-aos="fade">
             <div class="col-md-7 text-center heading-wrap">
-              <h2 data-aos="fade-up">Depot Al - Alamin</h2>
+              <h2 data-aos="fade-up" >Depot Al - Alamin</h2>
               <p data-aos="fade-up" data-aos-delay="100">.</p>
             </div>
           </div>
         <div class="row align-items-center">
           <div class="col-lg-4">
-            <img src="img/dishes_1.jpg" alt="Image" class="img-fluid about_img_1" data-aos="fade" data-aos-delay="200">
+            <img src="{{asset('img/logo.png')}}" alt="Image" class="img-fluid about_img_1" data-aos="fade" data-aos-delay="200">
           </div>
           <div class="col-lg-4">
-            <img src="img/about_1.jpg" alt="Image" class="img-fluid about_img_1" data-aos="fade" data-aos-delay="300">
-            <img src="img/about_2.jpg" alt="Image" class="img-fluid about_img_1" data-aos="fade" data-aos-delay="400">
+            <img src="{{asset('img/logo.png')}}" alt="Image" class="img-fluid about_img_1" data-aos="fade" data-aos-delay="300">
+            <img src="{{asset('img/logo.png')}}" alt="Image" class="img-fluid about_img_1" data-aos="fade" data-aos-delay="400">
           </div>
           <div class="col-lg-4">
-            <img src="img/dishes_3.jpg" alt="Image" class="img-fluid about_img_1" data-aos="fade" data-aos-delay="500">
+            <img src="{{asset('img/logo.png')}}" alt="Image" class="img-fluid about_img_1" data-aos="fade" data-aos-delay="500">
           </div>
         </div>
       </div>
     </section>
 
-  <!--
+  
     <section class="section ">
-
+<!--
       <div class="clearfix mb-5 pb-5">
         <div class="container-fluid mb-5">
           <div class="row" data-aos="fade">
             <div class="col-md-12 text-center heading-wrap">
-              <h2>Special Menu</h2>
+              <h2></h2>
             </div>
           </div>
         </div>
         <div class="owl-carousel centernonloop">
-          <a href="#" class="item-dishes" data-aos="fade-right" data-aos-delay="100">
+           <a href="#" class="item-dishes" data-aos="fade-right" data-aos-delay="100">
             <div class="text">
               <p class="dishes-price">$11.50</p>
               <h2 class="dishes-heading">Organic tomato salad, gorgonzola cheese, capers</h2>
@@ -126,12 +124,12 @@
               <h2 class="dishes-heading">Eggplant parmigiana</h2>
             </div>
             <img src="img/dishes_4.jpg" alt="" class="img-fluid">
-          </a>
+          </a> 
         </div>
       </div>
-
+-->
     </section>
-  -->
+ 
     <!-- .section -->
 
     <section class="section bg-light  top-slant-white bottom-slant-gray">
@@ -151,7 +149,7 @@
         <div class="row no-gutters">
           <div class="col-md-6">
             <div class="sched d-block d-lg-flex">
-              <div class="bg-image order-2" style="background-image: url('img/dishes_4.jpg');" data-aos="fade"></div>
+              <div class="bg-image order-2" style="background-image: url('{{asset('img/logo.png')}}');" data-aos="fade"></div>
               <div class="text order-1">
                 <h3>Bakso Biasa</h3>
                 <p>Bakso dengan mie lengkap dan 1 pentol besar dan 4 pentol kecil serta tahu.</p>
@@ -161,7 +159,7 @@
             </div>
 
             <div class="sched d-block d-lg-flex">
-              <div class="bg-image" style="background-image: url('img/dishes_1.jpg');" data-aos="fade"></div>
+              <div class="bg-image" style="background-image: url('{{asset('img/logo.png')}}');" data-aos="fade"></div>
               <div class="text">
                 <h3>Bakso Yamin</h3>
                 <p>Bakso dengan mie merah khas Banjar bisa kering atau basah</p>
@@ -175,7 +173,7 @@
 
           <div class="col-md-6">
             <div class="sched d-block d-lg-flex">
-              <div class="bg-image order-2" style="background-image: url('img/dishes_2.jpg');" data-aos="fade"></div>
+              <div class="bg-image order-2" style="background-image: url('{{asset('img/logo.png')}}');" data-aos="fade"></div>
               <div class="text order-1">
                 <h3>Siomay</h3>
                 <p>Siomay yang berisi daging siomay, kentang, telur, dan tahu. Sangat membuat kenyang tahan lama.</p>
@@ -186,7 +184,7 @@
             </div>
 
             <div class="sched d-block d-lg-flex">
-              <div class="bg-image" style="background-image: url('img/dishes_3.jpg');" data-aos="fade"></div>
+              <div class="bg-image" style="background-image: url('{{asset('img/logo.png')}}');" data-aos="fade"></div>
               <div class="text">
                 <h3>Batagor</h3>
                 <p>Batagor yang berisi daging batagor dan tahu serta pangsit untuk menambah rasa kriuk!</p>
